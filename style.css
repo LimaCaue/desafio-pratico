@@ -41,3 +41,37 @@ header {
     border-radius: 5px;
     background-color: #6F9EC6;
 }
+
+.secao-imagens {
+    width: 99%;
+}
+
+.secao-imagens img {
+    width: 500px;
+    border-radius: 5px;
+    display: block;
+    border: 1px solid #333;
+    margin: 5px auto;
+}
+
+.secao-imagens p {
+    text-align: center;
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.imagem-1 {
+    background-color: #8FAF9A;
+    display: inline-block;
+    width: 100%;
+    justify-content: center;
+    padding: 10px;
+}
+
+.imagem-2 {
+    background-color: #C98FA6;
+    display: inline-block;
+    width: 100%;
+    justify-content: center;
+    padding: 10px;
+}
