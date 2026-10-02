@@ -1,3 +1,9 @@
+body {
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    margin: 0;
+    width: 99%;
+}
+
 .titulo-principal {
     text-align: center;
     font-size: 2em;
@@ -10,6 +16,7 @@
     font-size: 1.5em;
     font-weight: bold;
     color: #333;
+    padding-bottom: 20px;
 }
 
 header {
@@ -17,9 +24,27 @@ header {
     font-weight: bold;
     background-color: #333;
     color: #fff;
-    padding: 10px;
-    margin: 10px;
+    padding: 18px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+nav a {
+    color: #fff;
+    padding: 8px 16px;
     border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+nav a:hover,
+nav a:focus {
+    background-color: #6F9EC6;
+    outline: none;
 }
 
 .secao-principal {
@@ -74,4 +99,35 @@ header {
     width: 100%;
     justify-content: center;
     padding: 10px;
+}
+
+footer {
+    padding: 30px 20px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+}
+
+footer h2 {
+    margin-top: 0;
+}
+
+footer a {
+    display: inline-block;
+    margin: 8px 0 18px;
+    padding: 10px 18px;
+    border-radius: 5px;
+    background-color: #6F9EC6;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover,
+footer a:focus {
+    background-color: #8FAF9A;
+}
+
+.copyright {
+    margin: 0;
+    font-size: 0.9rem;
 }
