@@ -1,0 +1,33 @@
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    color: #333;
+}
+
+.sobre-mim {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.secao-principal {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+}
